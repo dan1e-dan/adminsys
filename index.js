@@ -12,7 +12,7 @@ const con = mongoose.connection;
 
 try {
     con.on('open', () => {
-        console.log('Connected to the database');
+        console.log('Connected to the database completed');
     })
 } catch (error) {
     console.log("Error: " + error);
